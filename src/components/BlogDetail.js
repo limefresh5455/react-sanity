@@ -8,9 +8,9 @@ import BlockContent from "@sanity/block-content-to-react";
 import imageUrlBuilder from "@sanity/image-url";
 import Moment from 'moment';
 import blogService from './../services/blogService';
-import commentService from './../services/commentService';
-import { useForm } from 'react-hook-form';
-import toaster from './../helpers/toaster';
+// import commentService from './../services/commentService';
+// import { useForm } from 'react-hook-form';
+// import toaster from './../helpers/toaster';
 import { ToastContainer } from 'react-toastify';
 import Image from 'react-bootstrap/Image';
 
@@ -23,7 +23,7 @@ function BlogDetail() {
 
   const [postData, setPostData] = useState(null);
   const { slug } = useParams();
-  const { register, handleSubmit, formState: { errors } } = useForm();
+  // const { register, handleSubmit, formState: { errors } } = useForm();
 
   useEffect(() => {
     new blogService().getBlogBySlug(slug).then(data => {
@@ -31,19 +31,19 @@ function BlogDetail() {
     });
   }, [slug]);
 
-  const onSubmit = (data, e) => {
-    new commentService().createComments(data).then(res => {
-      if(res === "Success"){
-        new toaster().successMessage("comments added successfully.");
-        new blogService().getBlogBySlug(slug).then(data => {
-          setPostData(data)
-        });
-        e.target.reset();
-      }else{
-        new toaster().errorMessage("Error");
-      }
-    });
-  }
+  // const onSubmit = (data, e) => {
+  //   new commentService().createComments(data).then(res => {
+  //     if(res === "Success"){
+  //       new toaster().successMessage("comments added successfully.");
+  //       new blogService().getBlogBySlug(slug).then(data => {
+  //         setPostData(data)
+  //       });
+  //       e.target.reset();
+  //     }else{
+  //       new toaster().errorMessage("Error");
+  //     }
+  //   });
+  // }
 
   if (!postData) return <div>Loading...</div>;
 
@@ -98,7 +98,7 @@ function BlogDetail() {
              </div>
            </div>
            </div>
-            <div className="row reply">
+            {/* <div className="row reply">
         <div className="col-12">
           <h2 className="m-0">Leave a Reply</h2>
           <p>Your email address will not be published. Required fields are marked *</p>
@@ -131,7 +131,7 @@ function BlogDetail() {
             </div>
             </form>
         </div>
-      </div>
+      </div> */}
         </div>
         <SideBlog/>
       </div>
