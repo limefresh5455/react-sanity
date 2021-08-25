@@ -8,9 +8,8 @@ import '../assets/css/style.css';
 function Footer() {
   return (
    <Container fluid className="pt-3 bg-dark">
-      <footer className="Footer">
-         <Row>
-            <Col className="d-flex justify-content-start">
+         <Row className="Footer">
+            <Col>
                <div className="footerimage">
                   <img alt="footer_image" src="https://www.arcadeagroup.com/a-footer.svg"></img>
                </div>
@@ -41,9 +40,7 @@ function Footer() {
                <a className="p-2 text-white text-decoration-none" href="/">Blog</a>
                <a className="p-2 text-white text-decoration-none" href="mailto:info@arcadeagroup.com">Contact</a>
             </Col>
-         </Row>
-      </footer>
-   
+         </Row>   
    </Container>
   );
 }

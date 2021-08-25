@@ -49,7 +49,7 @@ function RecentBlog() {
                     <Link to={"/blog-detail/" + post.slug.current}><img src={post.mainImage.asset.url} alt="Image1" className="img-fluid rounded"/></Link>
                 </div>
                 <div className="excerpt">
-                  <span className="post-category ">{post.categories}</span>
+                  <span className="post-category ">{post.category}</span>
                   <h2><Link className="text-capitalize" to={"/blog-detail/" + post.slug.current}>{post.title}</Link></h2>
                   <div className="post-meta align-items-center text-left clearfix">
                     <figure className="author-figure"><img src={urlFor(post.authorImage).url()} alt="Image2" className="img-fluid"/></figure>
@@ -57,7 +57,7 @@ function RecentBlog() {
                     <span>&nbsp;-&nbsp; {moment(post.publishedAt).format('MMM DD, YYYY')}</span>
                   </div>
                 </div>
-                <div className="col-12 col-md-8 whats-next">
+                <div className="col-12 whats-next">
                 <BlockContent blocks={post.body} 
                 projectId={sanityClient.clientConfig.projectId}
                 dataset={sanityClient.clientConfig.dataset}/>
