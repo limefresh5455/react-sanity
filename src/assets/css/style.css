@@ -392,11 +392,11 @@ header.Hero.Hero--philosophy.Hero-Inner h1 {
     color: #fff;
     margin-bottom: 2.75rem;
 }
-
 .Hero figure {
-    
     margin: 0;
+    text-align: center;
 }
+
 section.blogsection {
     background: #ffffff;
     margin: 0;

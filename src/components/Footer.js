@@ -27,20 +27,22 @@ function Footer() {
                </div>
             </Col>  
          </Row>
-         <Row className="mt-5 pb-5">
-            <Col className="d-flex justify-content-center pt-3">
-               <p className="text-white ">
-                  © Copyright Arcadea Group 2021
-               </p>
-            </Col>
-            <Col className="d-flex flex-row mt-2">
-               <a className="p-2 text-white text-decoration-none" href="/">Philosophy</a>
-               <a className="p-2 text-white text-decoration-none" href="/">Perspectives</a>
-               <a className="p-2 text-white text-decoration-none" href="/">People</a>
-               <a className="p-2 text-white text-decoration-none" href="/">Blog</a>
-               <a className="p-2 text-white text-decoration-none" href="mailto:info@arcadeagroup.com">Contact</a>
-            </Col>
-         </Row>   
+         <Container>
+            <Row className="mt-5 pb-5">
+               <Col className="pt-3">
+                  <p className="text-white ">
+                     © Copyright Arcadea Group 2021
+                  </p>
+               </Col>
+               <Col className="d-flex flex-row mt-2">
+                  <a className="p-3 text-white text-decoration-none" href="/">Philosophy</a>
+                  <a className="p-3 text-white text-decoration-none" href="/">Perspectives</a>
+                  <a className="p-3 text-white text-decoration-none" href="/">People</a>
+                  <a className="p-3 text-white text-decoration-none" href="/">Blog</a>
+                  <a className="p-3 text-white text-decoration-none" href="mailto:info@arcadeagroup.com">Contact</a>
+               </Col>
+            </Row>
+         </Container>   
    </Container>
   );
 }
