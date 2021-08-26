@@ -11,7 +11,7 @@ function Header() {
    const showSidebar = () => setSidebar(!sidebar);
 
   return (
-   <Container fluid className=" mt-5 mb-4">
+   <Container className=" mt-5 mb-4">
       <Row>
          <Col className="Nav">
             <nav className="Nav">
