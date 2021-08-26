@@ -6,7 +6,7 @@ import blogService from './../services/blogService';
 import '../assets/css/style.css';
 import Pagination from "./Pagination";
 import Posts from "./Posts";
-import Image from 'react-bootstrap/Image';
+// import Image from 'react-bootstrap/Image';
 
 
 function MainPage() {
@@ -35,11 +35,11 @@ function MainPage() {
 
   return (
     <>
-    <main>
+    {/* <main>
         <header className="Hero Hero--philosophy">
           <figure className="Hero__background"><Image fluid src={process.env.PUBLIC_URL+'/images/banner.jpg'} alt=""/></figure>
         </header>
-    </main>
+    </main> */}
     <section className="blogsection">
         <div className="container">
           <div className="row d-flex justify-content-center mb-5 pt-5">

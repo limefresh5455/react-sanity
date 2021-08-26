@@ -12,7 +12,7 @@ import blogService from './../services/blogService';
 // import { useForm } from 'react-hook-form';
 // import toaster from './../helpers/toaster';
 import { ToastContainer } from 'react-toastify';
-import Image from 'react-bootstrap/Image';
+// import Image from 'react-bootstrap/Image';
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -61,14 +61,14 @@ function BlogDetail() {
     pauseOnHover
     />
     <main>
-      <header className="Hero Hero--philosophy blogDetails">
+      {/* <header className="Hero Hero--philosophy blogDetails">
         <figure className="Hero__background">
           <Image fluid src={process.env.PUBLIC_URL+'/images/banner.jpg'} alt=""/>
         </figure>
         <Link className= "text-decoration-none text-dark text-uppercase" to="/">
         <h4 className="container text-uppercase">HOME</h4>
         </Link>
-      </header>
+      </header> */}
     </main>
     <section className="blogsection detailsb">
     <div className="container">
