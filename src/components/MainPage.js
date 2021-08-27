@@ -38,7 +38,7 @@ function MainPage() {
     <main>
         {/* <header className="Hero Hero--philosophy"> */}
           {/* <figure className="Hero__background"><Image fluid src={process.env.PUBLIC_URL+'/images/banner.jpg'} alt=""/></figure> */}
-        <h2 className="text-center m-5">Arcadea Blogs</h2>
+        <h2 className="text-center m-5">Arcadea Blog</h2>
         {/* </header> */}
     </main>
     <section className="blogsection">
