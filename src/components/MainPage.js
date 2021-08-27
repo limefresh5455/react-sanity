@@ -50,7 +50,7 @@ function MainPage() {
         </div>
         </div> */}
           <div className="container">
-            <div className="row justify-content-center">
+            {/* <div className="row justify-content-center">
               <div className="topMenu">
                   <ul>
                     <li><Link to="#">News & Strategy</Link></li>
@@ -60,7 +60,7 @@ function MainPage() {
                     <li><Link to="#">Operators Circle</Link></li>
                   </ul>
               </div>
-            </div>
+            </div> */}
             <div className="row">
                 <div className="col-12 col-md-8">
                   <Posts posts={currentPosts} loading={loading} />
