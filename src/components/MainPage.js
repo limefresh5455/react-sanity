@@ -35,26 +35,27 @@ function MainPage() {
 
   return (
     <>
-    {/* <main>
-        <header className="Hero Hero--philosophy">
-          <figure className="Hero__background"><Image fluid src={process.env.PUBLIC_URL+'/images/banner.jpg'} alt=""/></figure>
-        </header>
-    </main> */}
+    <main>
+        {/* <header className="Hero Hero--philosophy"> */}
+          {/* <figure className="Hero__background"><Image fluid src={process.env.PUBLIC_URL+'/images/banner.jpg'} alt=""/></figure> */}
+        <h2 className="text-center m-5">Arcadea Blogs</h2>
+        {/* </header> */}
+    </main>
     <section className="blogsection">
-        <div className="container">
+        {/* <div className="container">
           <div className="row d-flex justify-content-center mb-5 pt-5">
           <div className="col-12">
               <p className="welcometext"></p>
           </div>
         </div>
-        </div>
+        </div> */}
           <div className="container">
             <div className="row justify-content-center">
               <div className="topMenu">
                   <ul>
-                    <li><Link to="#">Arcadea News</Link></li>
-                    <li><Link to="#">Strategy & Tactics</Link></li>
-                    <li><Link to="#">Selling & Transacting</Link></li>
+                    <li><Link to="#">News & Strategy</Link></li>
+                    <li><Link to="#">Tactics & Selling</Link></li>
+                    <li><Link to="#">Transacting</Link></li>
                     <li><Link to="#">Perspectives</Link></li>
                     <li><Link to="#">Operators Circle</Link></li>
                   </ul>

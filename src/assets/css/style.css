@@ -603,7 +603,7 @@ span.comments-type {
     padding: 15px;
     border: 1px solid #ccc;
     margin-right: 2px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .topMenu {
     text-align: center;
