@@ -20,11 +20,11 @@ function Posts(props) {
           <p className="lastupdate">
             <Link to="#"><i className="fa fa-user"></i> {post.name}</Link>
             <i className="fa fa-calendar"></i> {Moment(post.publishedAt).format('MMM DD, YYYY')}
-            <i className="fa fa-hashtag"></i> {post.category}
-            <span className="comments-type">
+            {/* <i className="fa fa-hashtag"></i> {post.category} */}
+            {/* <span className="comments-type">
             <i className="fa fa-comments"></i>
             <Link to="#"> {(post.comments) ? post.comments.length : 0 } comments</Link>
-            </span>
+            </span> */}
           </p>               
         </div>                   
         <div className="row post-content">

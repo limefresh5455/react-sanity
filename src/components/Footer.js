@@ -7,7 +7,7 @@ import '../assets/css/style.css';
 
 function Footer() {
   return (
-   <Container fluid className="pt-3 bg-dark">
+   <Container fluid className="pt-3 footerback">
          <Row className="Footer">
             <Col>
                <div className="footerimage">
@@ -18,10 +18,10 @@ function Footer() {
                <div className="footerform">
                   <form action="https://arcadeagroup.us6.list-manage.com/subscribe/post" method="POST">
                      <input type="hidden" name="u" value="526cde56bb3f37173cfaa0a6b"/><input type="hidden" name="id" value="256e73495e"/>
-                     <h2 className="text-white ">The Arcadea Brief</h2>
-                     <p className="text-white ">Join the Arcadea Brief, where we share <br/> our latest ideas and lessons learned, <br/> straight to your inbox.</p>
-                     <div className="news-subscription">
-                        <input type="email" className="p-2 border border-white bg-dark" name="EMAIL" placeholder="Your email" required=""/><a className="readmore" href="/" type="submit">Sign&nbsp;up</a>
+                     <h3 className="text-white mb-3">The Arcadea Brief</h3>
+                     <p className="text-white ">Join the Arcadea Brief, where we share our <br/> latest ideas and lessons learned, straight to <br/> your inbox.</p>
+                     <div className="news-subscription mt-4">
+                        <input type="email" className="p-2 border border-white " name="EMAIL" placeholder="Your email" required=""/><a className="signup" href="/" type="submit">Sign&nbsp;up</a>
                      </div>
                   </form>
                </div>
@@ -38,7 +38,6 @@ function Footer() {
                   <a className="p-3 text-white text-decoration-none" href="/">Philosophy</a>
                   <a className="p-3 text-white text-decoration-none" href="/">Perspectives</a>
                   <a className="p-3 text-white text-decoration-none" href="/">People</a>
-                  <a className="p-3 text-white text-decoration-none" href="/">Blog</a>
                   <a className="p-3 text-white text-decoration-none" href="mailto:info@arcadeagroup.com">Contact</a>
                </Col>
             </Row>
