@@ -28,7 +28,6 @@ function Header() {
                   <Link className="navigation" to="#">Philosophy</Link>
                   <Link className="navigation" to="#">Perspectives</Link>
                   <Link className="navigation" to="#">People</Link>
-                  <Link className="navigation" to="#">Blog</Link>
                   <Link className="navigation" to="mailto:info@arcadeagroup.com">
                      Contact 
                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

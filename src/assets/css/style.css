@@ -39,13 +39,15 @@ a{
 .navi{
     float: right;
     margin-top: -5px;
+    margin-right: -20px ;
 }
 .navigation{
     text-decoration: none;
     color: #000;
     font-weight: 500;
-    padding-right: 45px;
+    padding-right: 63px;
     font-size: 16px;
+    
 }
 
 .Nav img{

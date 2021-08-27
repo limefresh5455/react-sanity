@@ -41,7 +41,7 @@ function RecentBlog() {
     <>
     <div className="container mt-4" data-aos="clogo" data-aos-once="true" data-aos-duration="1200">
       <div className="row pb-5">
-        <h2>Recent Blog</h2>
+        <h2>Recent</h2>
         {recentPost && recentPost.map((post, index) => (
           <div className="col-sm-4" key={index}>
               <div className="entry2">
