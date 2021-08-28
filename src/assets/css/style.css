@@ -189,7 +189,7 @@ a:hover.readmore{color: rgb(0, 0, 0); background: #fbc6a3;}
     text-decoration: none;
     background: #FDE4D3;
     border-radius: 2px;
-    width: 19% !important;
+    width: 27% !important;
     padding: 4px 20px 8px 20px;
 }
 .readpost:hover{
@@ -363,16 +363,18 @@ a:hover.readmorebig {
   }
 
 
-@media (min-width: 1440px){
+@media (min-width: 786px){
 .topRightCate .badge {
     padding: 5px;
     background: #7ca7bd;
     min-width: 25px;
     }
-    
+    .readpost{
+        width: 12% !important;
+    }
 }
 
-@media (max-width: 1200px){
+@media (min-width:786px) and (max-width: 1200px){
     .Nav__hamburger{
         display: block;
         float: right;
@@ -394,7 +396,7 @@ a:hover.readmorebig {
         padding-bottom: 25px;
     }
     .readpost{
-        width: 27% !important;
+        width: 20% !important;
     }
     .topRightCate .badge {
         min-width: 25px;

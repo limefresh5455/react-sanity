@@ -69,20 +69,19 @@ function MainPage() {
               </div>
             </div> */}
             <div className="row">
-                <div className="col-12 col-md-8">
-                  <Posts posts={currentPosts} loading={loading} />
-                   <div className="col-12">
-                      <div className="blog-pager container pagination-wrapper" id="blog-pager">
-                        <Pagination
+              <div className="col-12 col-md-12">
+                <Posts posts={currentPosts} loading={loading} />
+                  <div className="col-12">
+                    <div className="blog-pager container pagination-wrapper" id="blog-pager">
+                      <Pagination
                           paginate={paginate}
                           postsPerPage={postsPerPage}
                           totalPosts={allPostsData.length}
-                        />
-                      </div>
-                   </div>
-                </div>
-                <SideBlog/>              
-              </div>
+                      />
+                    </div>
+                  </div>
+              </div>            
+            </div>
           </div>
           <RecentBlog/>
         </section>  
