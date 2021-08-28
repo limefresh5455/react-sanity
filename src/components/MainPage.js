@@ -41,7 +41,7 @@ function MainPage() {
           {/* </header> */}
           <div className="container mt-5 mb-5">
             <div className="row">
-              <div className="col">
+              <div className="col text-center">
               <h1 className="mt-4 teamhead">Perspectives</h1>
               <p className="mt-4">Insights from Arcadea</p>
               </div>
