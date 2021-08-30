@@ -52,7 +52,7 @@ function RecentBlog() {
                   <span className="post-category ">{post.category}</span>
                   <h2><Link className="text-capitalize" to={"/blog-detail/" + post.slug.current}>{post.title}</Link></h2>
                   <div className="post-meta align-items-center text-left clearfix">
-                    <figure className="author-figure"><img src={urlFor(post.authorImage).url()} alt="Image2" className="img-fluid"/></figure>
+                    <figure className="author-figure"><img src={urlFor(post.authorImage).url()} alt="Author" className="img-fluid"/></figure>
                     <span className="d-inline-block mt-1">By <Link to="#">{post.name}</Link></span>
                     <span>&nbsp;-&nbsp; {moment(post.publishedAt).format('MMM DD, YYYY')}</span>
                   </div>
