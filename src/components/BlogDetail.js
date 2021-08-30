@@ -78,13 +78,13 @@ function BlogDetail() {
           <div className="blog-post">
             <h2 className= "text-capitalize">{postData.title}</h2>
                 <p className="lastupdate">
-                <Link to="#"><i className="fa fa-user-circle-o"></i> {postData.name}</Link>
+                <Link to="#"><i className="fa fa-user-circle"></i> {postData.name}</Link>
                 <i className="fa fa-calendar"></i> {Moment(postData.publishedAt).format('MMM DD, YYYY')}
-                <i className="fa fa-hashtag"></i> {postData.categories}
+                {/* <i className="fa fa-hashtag"></i> {postData.categories}
                  <span className="comments-type">
                  <i className="fa fa-comments-o"></i>
                  <Link to="#"> {(postData.comments) ? postData.comments.length : 0 } comments</Link>
-                 </span>
+                 </span> */}
                  </p>              
           </div>
            <div className="row post-content">
