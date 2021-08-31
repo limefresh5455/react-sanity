@@ -74,9 +74,9 @@ function SideBlog() {
            <div className="tab-content" id="nav-tabContent"><div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                   {allPostsData && allPostsData.slice(0, 5).map((post, index) => (
                     <div className="row mb-4" key={index}>
-                      <div className="col-12 col-md-4">
+                      {/* <div className="col-12 col-md-4">
                         <img src={post.mainImage.asset.url} className="card-img" alt="..."/>
-                      </div>
+                      </div> */}
                       <div className="col-12 col-md-8">
                       <p>
                         <Link className= "text-decoration-none text-capitalize text-dark" to={"/blog-detail/" + post.slug.current} key={post.slug.current}> <b>{post.title}</b> </Link>
@@ -91,9 +91,9 @@ function SideBlog() {
               <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                 {recentPost && recentPost.slice(0, 5).map((post, index) => (
                   <div className="row mb-4" key={index}>
-                    <div className="col-12 col-md-4">
+                    {/* <div className="col-12 col-md-4">
                         <img src={post.mainImage.asset.url} className="card-img" alt="..."/>
-                    </div>
+                    </div> */}
                     <div className="col-12 col-md-8">
                       <p>
                         <Link className= "text-decoration-none text-capitalize text-dark" to={"/blog-detail/" + post.slug.current} key={post.slug.current}><b>{post.title}</b></Link>

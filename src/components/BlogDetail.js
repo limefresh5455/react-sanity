@@ -88,9 +88,9 @@ function BlogDetail() {
                  </p>              
           </div>
            <div className="row post-content">
-             <div className="col-12 col-md-12">
+             {/* <div className="col-12 col-md-12">
               <img src={urlFor(postData.mainImage).url()} className="card-img" alt="..."/>
-             </div>
+             </div> */}
               <div className="col-12 col-md-12 mt-4">
                 <BlockContent blocks={postData.body} 
                 projectId={sanityClient.clientConfig.projectId}

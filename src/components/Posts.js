@@ -28,9 +28,9 @@ function Posts(props) {
           </p>               
         </div>                   
         <div className="row post-content">
-          <div className="col-12 col-md-4">
+          {/* <div className="col-12 col-md-4">
             <img src={post.mainImage.asset.url} className="card-img" alt="..."/>
-          </div>
+          </div> */}
           <div className="col-12 col-md-8 whats-next">
             <BlockContent blocks={post.body} 
             projectId={sanityClient.clientConfig.projectId}
