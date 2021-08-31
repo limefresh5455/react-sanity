@@ -189,7 +189,7 @@ a:hover.readmore{color: rgb(0, 0, 0); background: #fbc6a3;}
     text-decoration: none;
     background: #FDE4D3;
     border-radius: 2px;
-    width: 10% !important;
+    width: 12% !important;
     padding: 4px 20px 8px 20px;
 }
 .readpost:hover{
@@ -387,6 +387,9 @@ a:hover.readmorebig {
     .readpost{
         width: 20% !important;
     }
+    .footerimage{
+        max-width: 100% !important;
+    }
 }
 
 
@@ -405,6 +408,7 @@ a:hover.readmorebig {
     .Nav img{
         margin-left: 10px !important;
     }
+    
 }
 
 @media (min-width:786px) and (max-width: 1200px){
