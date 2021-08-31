@@ -34,7 +34,7 @@ function Footer() {
                      © Copyright Arcadea Group 2021
                   </p>
                </Col>
-               <Col className="d-flex flex-row mt-2">
+               <Col className="footernav d-flex flex-row mt-2">
                   <a className="p-3 text-white text-decoration-none" href="/">Philosophy</a>
                   <a className="p-3 text-white text-decoration-none" href="/">Perspectives</a>
                   <a className="p-3 text-white text-decoration-none" href="/">People</a>

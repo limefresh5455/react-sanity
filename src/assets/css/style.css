@@ -123,6 +123,7 @@ nav.Nav a{font-weight: bold; color: #131111;}
     background-size: auto 101%;
     margin-top: -16px;
     margin-left: -16px;
+    max-width: 100% !important;
 }
 
 .blogContent {
@@ -188,7 +189,7 @@ a:hover.readmore{color: rgb(0, 0, 0); background: #fbc6a3;}
     text-decoration: none;
     background: #FDE4D3;
     border-radius: 2px;
-    width: 27% !important;
+    width: 10% !important;
     padding: 4px 20px 8px 20px;
 }
 .readpost:hover{
@@ -361,20 +362,7 @@ a:hover.readmorebig {
     opacity: 1;
   }
 
-
-@media (min-width: 786px){
-.topRightCate .badge {
-    padding: 5px;
-    background: #7ca7bd;
-    min-width: 25px;
-    }
-    .readpost{
-        width: 12% !important;
-    }
-    
-}
-
-@media (min-width:786px) and (max-width: 1200px){
+  @media (max-width: 768px){
     .Nav__hamburger{
         display: block;
         float: right;
@@ -394,9 +382,35 @@ a:hover.readmorebig {
     .navigation{
         display: block;
         padding-bottom: 25px;
+        margin-left: 15% !important;
     }
     .readpost{
         width: 20% !important;
+    }
+}
+
+
+@media (max-width: 425px){
+.topRightCate .badge {
+    padding: 5px;
+    background: #7ca7bd;
+    min-width: 25px;
+    }
+    .readpost{
+        width: 35% !important;
+    }
+    .footernav{
+        font-size: 12px !important;
+    }
+    .Nav img{
+        margin-left: 10px !important;
+    }
+}
+
+@media (min-width:786px) and (max-width: 1200px){
+    
+    .readpost{
+        width: 15% !important;
     }
     .topRightCate .badge {
         min-width: 25px;
