@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Link } from 'react-router-dom';
-import RecentBlog from './RecentBlog';
+// import { Link } from 'react-router-dom';
+// import RecentBlog from './RecentBlog';
 import SideBlog from './SideBlog';
 import { useParams } from "react-router-dom";
 import sanityClient from "../client.js";
@@ -78,7 +78,7 @@ function BlogDetail() {
           <div className="blog-post">
             <h2 className= "text-capitalize">{postData.title}</h2>
                 <p className="lastupdate">
-                <Link to="#"><i className="fa fa-user-circle"></i> {postData.name}</Link>
+                {/* <Link to="#"><i className="fa fa-user-circle"></i> {postData.name}</Link> */}
                 <i className="fa fa-calendar"></i> {Moment(postData.publishedAt).format('MMM DD, YYYY')}
                 {/* <i className="fa fa-hashtag"></i> {postData.categories}
                  <span className="comments-type">
@@ -136,7 +136,7 @@ function BlogDetail() {
         <SideBlog/>
       </div>
   </div>
-  <RecentBlog/>
+  {/* <RecentBlog/> */}
   </section>
     </>
   );

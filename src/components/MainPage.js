@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 // import { Link } from 'react-router-dom';
-import RecentBlog from './RecentBlog';
+// import RecentBlog from './RecentBlog';
 // import SideBlog from './SideBlog';
 import blogService from './../services/blogService';
 import '../assets/css/style.css';
@@ -56,7 +56,7 @@ function MainPage() {
           </div>
         </div>
         </div> */}
-          <div className="container">
+          <div className="container mb-5">
             {/* <div className="row justify-content-center">
               <div className="topMenu">
                   <ul>
@@ -83,7 +83,7 @@ function MainPage() {
               </div>            
             </div>
           </div>
-          <RecentBlog/>
+          {/* <RecentBlog/> */}
         </section>  
     </>
   );

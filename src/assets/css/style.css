@@ -1,14 +1,13 @@
 @font-face {
     font-family: Axiforma;
-    src: url(../FontsFree-Net-sddd4.ttf);
+    src: url(../Kastelov\ -\ Axiforma\ Regular.otf);
+}
 
-
-  }
-  
   *{
     font-family: Axiforma;
     color: #000;
   }
+  
 
 
 

@@ -3,14 +3,8 @@ import { Link } from 'react-router-dom';
 import BlockContent from "@sanity/block-content-to-react";
 import sanityClient from "../client.js";
 import * as moment from 'moment';
-import imageUrlBuilder from "@sanity/image-url";
 import blogService from './../services/blogService';
 import '../assets/css/style.css';
-
-const builder = imageUrlBuilder(sanityClient);
-function urlFor(source) {
-  return builder.image(source);
-}
 
 function RecentBlog() {
 
@@ -52,9 +46,9 @@ function RecentBlog() {
                   <span className="post-category ">{post.category}</span>
                   <h2><Link className="text-capitalize" to={"/blog-detail/" + post.slug.current}>{post.title}</Link></h2>
                   <div className="post-meta align-items-center text-left clearfix">
-                    <figure className="author-figure"><img src={urlFor(post.authorImage).url()} alt="Author" className="img-fluid"/></figure>
-                    <span className="d-inline-block mt-1">By <Link to="#">{post.name}</Link></span>
-                    <span>&nbsp;-&nbsp; {moment(post.publishedAt).format('MMM DD, YYYY')}</span>
+                    {/* <figure className="author-figure"><img src={urlFor(post.authorImage).url()} alt="Author" className="img-fluid"/></figure>
+                    <span className="d-inline-block mt-1">By <Link to="#">{post.name}</Link></span> */}
+                    <span> {moment(post.publishedAt).format('MMM DD, YYYY')}</span>
                   </div>
                 </div>
                 <div className="col-12 whats-next">

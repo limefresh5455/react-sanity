@@ -18,7 +18,7 @@ function Posts(props) {
         <div className="blog-post">
           <h2><Link to={"/blog-detail/" + post.slug.current} key={post.slug.current} className="text-capitalize">{post.title}</Link></h2>
           <p className="lastupdate">
-            <Link to="#"><i className="fa fa-user"></i> {post.name}</Link>
+            {/* <Link to="#"><i className="fa fa-user"></i> {post.name}</Link> */}
             <i className="fa fa-calendar"></i> {Moment(post.publishedAt).format('MMM DD, YYYY')}
             {/* <i className="fa fa-hashtag"></i> {post.category} */}
             {/* <span className="comments-type">
