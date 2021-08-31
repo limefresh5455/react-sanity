@@ -73,7 +73,7 @@ function BlogDetail() {
     <section className="blogsection detailsb">
     <div className="container">
       <div className="row">
-        <div className="col-12 col-md-8">
+        <div className="col-12 col-md-12">
         <div className="blogwrap" data-aos="clogo" data-aos-once="true" data-aos-duration="1200">
           <div className="blog-post">
             <h2 className= "text-capitalize">{postData.title}</h2>
@@ -133,7 +133,7 @@ function BlogDetail() {
         </div>
       </div> */}
         </div>
-        <SideBlog/>
+        {/* <SideBlog/> */}
       </div>
   </div>
   {/* <RecentBlog/> */}

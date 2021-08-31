@@ -371,6 +371,7 @@ a:hover.readmorebig {
     .readpost{
         width: 12% !important;
     }
+    
 }
 
 @media (min-width:786px) and (max-width: 1200px){
