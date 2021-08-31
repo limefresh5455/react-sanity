@@ -5,7 +5,7 @@ import SideBlog from './SideBlog';
 import { useParams } from "react-router-dom";
 import sanityClient from "../client.js";
 import BlockContent from "@sanity/block-content-to-react";
-import imageUrlBuilder from "@sanity/image-url";
+// import imageUrlBuilder from "@sanity/image-url";
 import Moment from 'moment';
 import blogService from './../services/blogService';
 // import commentService from './../services/commentService';
@@ -14,10 +14,10 @@ import blogService from './../services/blogService';
 import { ToastContainer } from 'react-toastify';
 // import Image from 'react-bootstrap/Image';
 
-const builder = imageUrlBuilder(sanityClient);
-function urlFor(source) {
-  return builder.image(source);
-}
+// const builder = imageUrlBuilder(sanityClient);
+// function urlFor(source) {
+//   return builder.image(source);
+// }
 
 function BlogDetail() {
 
