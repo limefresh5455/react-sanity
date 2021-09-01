@@ -387,9 +387,7 @@ a:hover.readmorebig {
     .readpost{
         width: 20% !important;
     }
-    .footerimage{
-        max-width: 100% !important;
-    }
+    
 }
 
 
@@ -400,14 +398,16 @@ a:hover.readmorebig {
     min-width: 25px;
     }
     .readpost{
-        width: 35% !important;
+        width: 41% !important;
+        font-size: 12px;
     }
     .footernav{
-        font-size: 12px !important;
+        font-size: 8px !important;
     }
     .Nav img{
         margin-left: 10px !important;
     }
+    
     
 }
 
@@ -420,9 +420,6 @@ a:hover.readmorebig {
         min-width: 25px;
     }
 
-    .footerimage{
-        display: none;
-    }
 }
 header.Hero-Inner.Hero.Hero--philosophy {
     min-height: fit-content;
