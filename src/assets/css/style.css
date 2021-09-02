@@ -400,6 +400,7 @@ a:hover.readmorebig {
     .readpost{
         width: 41% !important;
         font-size: 12px;
+        text-align: center;
     }
     .footernav{
         font-size: 8px !important;
@@ -407,8 +408,14 @@ a:hover.readmorebig {
     .Nav img{
         margin-left: 10px !important;
     }
-    
-    
+    .footerimage img {
+        width: 100%;
+    }
+    .footerform {
+    margin-top: 50px;
+    margin-left: 20px;
+    }
+        
 }
 
 @media (min-width:786px) and (max-width: 1200px){
@@ -686,3 +693,7 @@ section.blogsection.detailsb {
     font-size: 24px;
 }
 
+.readpost {
+    text-align: center;
+    padding: 10px 20px 8px;
+}
