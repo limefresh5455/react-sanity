@@ -12,12 +12,8 @@ function App() {
       	<Switch>
         	<Route exact path="/" render={(props) => <MainPage/>} />
         	<Route exact path="/blog-detail/:slug" component={() => <BlogDetail/>} />
-          <Route path='/Philosophy' component={() => {  
-            window.location.href = 'https://www.arcadeagroup.com/philosophy'; 
-            return null;
-            }}/>
-            <Route path='/People' component={() => { 
-            window.location.href = 'https://www.arcadeagroup.com/philosophy'; 
+          <Route path='/People' component={() => { 
+            window.location.href = 'https://www.arcadeagroup.com/people'; 
             return null;
             }}/>
       	</Switch>
