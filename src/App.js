@@ -12,11 +12,7 @@ function App() {
       	<Switch>
         	<Route exact path="/" render={(props) => <MainPage/>} />
         	<Route exact path="/blog-detail/:slug" component={() => <BlogDetail/>} />
-          <Route path='/People' component={() => { 
-            window.location.href = 'https://www.arcadeagroup.com/people'; 
-            return null;
-            }}/>
-      	</Switch>
+        </Switch>
       <Footer/>
     </Router>
   );

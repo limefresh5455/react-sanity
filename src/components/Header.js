@@ -25,16 +25,16 @@ function Header() {
                </Link>
             <div className={sidebar ? 'navi active' : 'navi'}>  
                <div className="navi" onClick={showSidebar}>
-                  <Link className="navigation" to="/Philosophy">Philosophy</Link>
-                  <Link className="navigation" to="#">Perspectives</Link>
-                  <Link className="navigation" to="/People">People</Link>
-                  <Link className="navigation" to="mailto:info@arcadeagroup.com">
+                  <a className="navigation" href="https://www.arcadeagroup.com/philosophy">Philosophy</a>
+                  <a className="navigation" href="https://perspectives.arcadeagroup.com/">Perspectives</a>
+                  <a className="navigation" href="https://www.arcadeagroup.com/people">People</a>
+                  <a className="navigation" href="mailto:info@arcadeagroup.com">
                      Contact 
                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M4.66669 11.3333L11.3334 4.66663" stroke="#221F1F" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
                         <path d="M4.66669 4.66663H11.3334V11.3333" stroke="#221F1F" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
                      </svg>
-                  </Link>
+                  </a>
                </div>
             </div>
          </Col>
